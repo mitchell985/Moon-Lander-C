@@ -1,0 +1,46 @@
+Unique ID: Clear bug
+
+thier was a problem that if you typed clear in to the terminal then ran the program the backround colour would not be changed for the size of the screen -2
+so i made it move down the screen the size of y -2 then draw the background.
+another other way of fixing this bug could to move the cursour to the top of the terminal then use my clear screen fuction to clear the whole screen.
+
+Status: Fixed
+
+
+Unique ID: Screen Flashing
+
+the screens flashs repeatly.
+from what steffan said it could have something to do with the fact that the pi's CLI does not have a v-sync.
+am going to run startx and see how the game runs, yes it well in the GUI on the pi. but the response time on
+the keypresses is slow, going to try decrease the DELAY. 
+changed the clear that clear the whole screen to refresh which lets you refresh what needs to be drawen
+the only problem is the debug information is not cleared and redrawen but ill comment out the debug information when i finish
+
+Status: Fixed
+
+
+Unique ID: Keys Buffering
+
+so the keys are having problems being dected.
+if you slowdown the DELAY and press a key it stores a whole lot in the buffer and takes along time to catch up, not less thats what i think is happening
+the DELAY time has be decreased so that it can check keypresses more offten
+
+Status: Fixed
+
+
+Unique ID: The Clear Thruster
+
+the code used to clear a thruster is clear a part of the surface.
+i could make a window over the top of the surface that says you've win or you lost over the problem
+cleared the screen before the user can see anything
+
+Status: Hidden
+
+
+Unique ID: Win Lost Any Key Input
+
+the problem is the keypress staying in the buffer from playing the game and being read by the win lost codes getch
+the easy solution would be to use a getch before its needed to reset the buffer back to -1.
+went for the easy solution
+
+Status: Fixed

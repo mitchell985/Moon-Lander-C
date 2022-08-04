@@ -1,0 +1,32 @@
+Lunder Lander Game
+
+Purpose: create a Lunder lander game in the linux terminal using ascii esc codes or other
+means
+
+
+Features:
+
+Controllable Spaceship to land on the surface
+Randomly Generated Surface to make each landing different
+Basic 2D Physics including gravity to make the game feel real like...
+A Nice Menu System giving the player the ability to reset the game
+The Ability To Play the game over ssh makes it easy for dev on the pi and play, too
+Collision Dection Based on the numbers used to generate the surface
+Colours colour everything and as a freind said ill try choose colours that colour bind people can see
+
+
+Algorithms:
+
+Ones that i come up with ??
+
+
+User Interface:
+
+The Main Menu needs the title at the top followed by the instructions for the game
+I'll attempt to make the instuctions funny or witty...
+At the Bottom there's the menu system controlled by the up and down arrow and the enter 
+key
+In the Game it self i what in the corner the stats of what the ship is doing, the ship
+well start in the centre of the screen, (a nice ascii ship) and start falling as soon
+as the game starts, due to the gravity. i what left, right and up control so ill need
+the 'asd' keys as for the surface like previously said randomly generated

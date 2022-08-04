@@ -1,0 +1,58 @@
+1 June 2015
+4.00pm-5.00pm
+Writing the design log
+
+2 June 2015
+1.42pm-12.00am  -2.00h
+starting work on the a way of changing the background colour.
+got the background to change colour also made the cursor move to any x - y position.
+
+3 June 2015
+1.38pm-4.00pm
+working on letting the program read a key from a key press.
+it don't work thier is a way that to got the keypress to input but it blanks out the screen to do so,
+using ncurses, thier is another way that im yet to try using the terminals own key detection by looking at the terminals
+struct but its long, though i beleive i could make it shorter ncurses appears more appelling as its a lib build for making games,
+through i could learn SDL because its installed on imageworld maybe... ? ncurses stays in the terminal and may work over ssh ??
+
+looking it old if you what to see what i did with acsii esc codes.
+
+9.00pm-11.00pm
+making a makefile to work with ncurses and learning how to use it.
+started playing with ncurses and making some examples.
+
+4 June 2015
+12.00pm-3.00pm
+making more examples and replicating what i did with esc codes then expanding it to read keys.
+so i got the menu to work and the keypress if you select exit it close, which is good, i think i need,
+to plan how the game is going to work. as i now have an idea of how ncurses works
+
+5.00pm-12.00am
+ok scrabed planning this and just started.
+got it all working thiers a fuctional game a need to put the menu systems in, i need a you win and you crash dailog too and omnimize it for
+the pi it flashes alot on the screen.
+
+5 June 2015
+3.30pm-5.40pm
+pi testing and seeing what i can change to make the flashing stop.
+lots of things got fixed including the flashing. see bugs.txt
+
+14 June 2015 
+12.54pm-1.20pm
+finishing the start menu getting it to start the main game, putting all the things from main in game.c to fuctions.
+tidying up and lots of it im also going to add malloc and free stuff to the menu.c .
+Lunch.
+
+4.00pm-4.30pm
+watched the new thunderbird series episode and some other things :-P.
+need a drink and my back is sore, ive started including and create .h files for the 
+.c files and checking that they work the next step is to start the fuction menu from curses_startup
+which is going to control the whole program.
+
+10:26pm-
+
+15 June 2015
+4.01am
+ok lets see if i can get a bit more then half an hour, but if people contine asking for help im not ... :-(, i should turn off my phone ... ??? no.
+so after finishing ive through if i make a score system i could have easly make a malloc, free and file read, writing with that
+but never mind im happy with what ive got i mean i'm yet to see anyone else's like it :-)
