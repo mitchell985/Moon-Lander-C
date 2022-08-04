@@ -8,6 +8,6 @@ Opening menu screen
 ![The game](https://github.com/mitchell985/Moon-Lander-C/raw/master/game.png)
 The game running
 
-##Play it
+## Play it
 
 Run the Makefile
